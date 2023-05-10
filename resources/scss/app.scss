@@ -1,1 +1,43 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: grey;
+}
+
+.sezione{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contenitore-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+
+    
+    .card {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        text-align: center;
+
+        width: 300px;
+        height: 200px;
+
+        border: 2px solid grey;
+
+        background-color: rgba(128, 128, 128, 0.558);
+
+    }
+}
+    
+
+
